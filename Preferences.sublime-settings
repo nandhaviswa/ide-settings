@@ -1,0 +1,12 @@
+{
+	"auto_close_tags": false,
+	"auto_find_in_selection": true,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"word_wrap": true
+}
