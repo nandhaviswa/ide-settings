@@ -1,0 +1,23 @@
+[{
+		"keys": ["ctrl+0"],
+		"command": "fnxt_timestamp"
+	},
+	{
+		"keys": ["ctrl+1"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "\nconsole.log('\\n----------------------\\n');\nconsole.log($0);\nconsole.log('\\n----------------------\\n');\n"
+		}
+	},
+	{
+		"keys": ["ctrl+2"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "\necho \"\\n\";\nprint_r($0);\necho \"\\n\";\n"
+		}
+	},
+	{
+		"keys": ["ctrl+shift+space"],
+		"command": "fnxt_annotate"
+	}
+]
