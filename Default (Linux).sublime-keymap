@@ -13,7 +13,28 @@
 		"keys": ["ctrl+2"],
 		"command": "insert_snippet",
 		"args": {
+			"contents": "\nconsole.log($0);\n"
+		}
+	},
+	{
+		"keys": ["ctrl+3"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "console.log($0);\n"
+		}
+	},
+	{
+		"keys": ["ctrl+6"],
+		"command": "insert_snippet",
+		"args": {
 			"contents": "\necho \"\\n\";\nprint_r($0);\necho \"\\n\";\n"
+		}
+	},
+	{
+		"keys": ["ctrl+7"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "\necho \"<pre>\";\nprint_r($0);\necho \"</pre>\";\n"
 		}
 	},
 	{
