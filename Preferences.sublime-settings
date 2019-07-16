@@ -1,12 +1,14 @@
 {
 	"auto_close_tags": false,
-	"auto_find_in_selection": true,
+	"auto_complete": true,
 	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 6,
-	"line_padding_top": 6,
-	"word_wrap": true
+	"line_padding_bottom": 7,
+	"line_padding_top": 7,
+	"update_check": true,
+	"word_wrap": true,
+	"translate_tabs_to_spaces": true,
 }
