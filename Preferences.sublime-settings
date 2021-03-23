@@ -8,7 +8,7 @@
 	],
 	"line_padding_bottom": 7,
 	"line_padding_top": 7,
-	"update_check": true,
-	"word_wrap": true,
 	"translate_tabs_to_spaces": true,
+	"update_check": false,
+	"word_wrap": true
 }
