@@ -1,6 +1,6 @@
 [{
         "keys": ["ctrl+0"],
-        "command": "fnxt_timestamp"
+        "command": "nnda_timestamp"
     },
     {
         "keys": ["ctrl+1"],
@@ -46,6 +46,6 @@
     },
     {
         "keys": ["ctrl+shift+space"],
-        "command": "fnxt_annotate"
+        "command": "nnda_annotate"
     }
 ]
