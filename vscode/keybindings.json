@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaults
+[{
+	"key": "ctrl+1",
+	"command": "editor.action.insertSnippet",
+	"when": "editorTextFocus",
+	"args": {
+		"snippet": "\nconsole.log('\\n--------------------------------[ nandha ]---------------------------------\\n');\nconsole.log($0);\nconsole.log('\\n--------------------------------[ nandha ]---------------------------------\\n');\n"
+	}
+},{
+	"key": "ctrl+9",
+	"command": "editor.action.insertSnippet",
+	"when": "editorTextFocus",
+	"args": {
+		"snippet": "\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\nSystem.out.println($0);\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\n"
+	}
+}]
