@@ -1,0 +1,6 @@
+ - Choose monokai theme
+ - Install extension pack for java
+ - Update keybindings
+ - Update user snippets
+     - java
+     - javascript
