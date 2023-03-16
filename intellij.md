@@ -7,3 +7,5 @@ System.out.println($END$);
 System.out.println("\n--------------------------------[ nandha ]---------------------------------\n");
 
 ```
+
+https://www.jetbrains.com/help/idea/using-live-templates.html
