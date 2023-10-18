@@ -1,0 +1,69 @@
+{
+    "editor.suggestSelection": "first",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.saveActions.organizeImports": false,
+    "files.autoSave": "afterDelay",
+    "java.completion.filteredTypes": [
+        "java.awt.*",
+        "com.sun.*",
+        "sun.*"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m",
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "com",
+        "org"
+    ],
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "explorer.copyRelativePathSeparator": "/",
+    "[javascriptreact]": {},
+    "window.zoomLevel": 1,
+    "files.associations": {
+        "*.ejs": "html"
+    },
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.lineHeight": 2,
+    "git.openRepositoryInParentFolders": "never",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "debug.openDebug": "neverOpen",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Java\\jdk1.8.0_202"
+        },
+        {
+            "name": "JavaSE-15",
+            "path": "C:\\Program Files\\jdk-15",
+            "default": true
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "D:\\Users\\nviswanathan\\Apps\\jdk-17.0.1",
+            "default": true
+        }
+    ],
+    "settingsSync.ignoredExtensions": [
+        
+    ]
+}
