@@ -3,6 +3,10 @@
         "command": "nnda_timestamp"
     },
     {
+        "keys": ["ctrl+9"],
+        "command": "nnda_annotate"
+    },
+    {
         "keys": ["ctrl+1"],
         "command": "insert_snippet",
         "args": {
@@ -13,39 +17,28 @@
         "keys": ["ctrl+2"],
         "command": "insert_snippet",
         "args": {
-            "contents": "\nconsole.log($0);\n"
+            "contents": "\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\nSystem.out.println($0);\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\n"
         }
     },
     {
         "keys": ["ctrl+3"],
         "command": "insert_snippet",
         "args": {
-            "contents": "console.log($0);\n"
+            "contents": "\nprint('\\n--------------------------------[ nandha ]---------------------------------\\n');\nprint($0);\nprint('\\n--------------------------------[ nandha ]---------------------------------\\n');\n"
         }
     },
     {
-        "keys": ["ctrl+6"],
+        "keys": ["ctrl+4"],
         "command": "insert_snippet",
         "args": {
             "contents": "\necho \"\\n\";\nprint_r($0);\necho \"\\n\";\n"
         }
     },
     {
-        "keys": ["ctrl+7"],
+        "keys": ["ctrl+5"],
         "command": "insert_snippet",
         "args": {
             "contents": "\necho \"<pre>\";\nprint_r($0);\necho \"</pre>\";\n"
         }
-    },
-    {
-        "keys": ["ctrl+9"],
-        "command": "insert_snippet",
-        "args": {
-            "contents": "\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\nSystem.out.println($0);\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\n"
-        }
-    },
-    {
-        "keys": ["ctrl+shift+space"],
-        "command": "nnda_annotate"
     }
 ]
