@@ -8,5 +8,6 @@
 	"line_padding_top": 7,
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
-	"word_wrap": true
+	"word_wrap": true,
+	"color_scheme": "Monokai.sublime-color-scheme",
 }
