@@ -2,7 +2,6 @@ import sublime
 import sublime_plugin
 import datetime;
 
-
 class NndaAnnotateCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		today=datetime.datetime.now();
