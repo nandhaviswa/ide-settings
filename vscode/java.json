@@ -15,7 +15,7 @@
 	"Print to console": {
 		"prefix": "nnda",
 		"body": [
-			"\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\nSystem.out.println($0);\nSystem.out.println(\"\\n--------------------------------[ nandha ]---------------------------------\\n\");\n",
+			"\nSystem.out.println(\"\\n--------------------------------[ ${TM_FILENAME}:${TM_LINE_NUMBER} ]---------------------------------\\n\");\nSystem.out.println($0);\nSystem.out.println(\"\\n--------------------------------[ ${TM_FILENAME}:${TM_LINE_NUMBER} ]---------------------------------\\n\");\n",
 		],
 		"description": "Log output to console"
 	}
